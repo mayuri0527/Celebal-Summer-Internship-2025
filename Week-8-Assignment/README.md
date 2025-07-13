@@ -63,62 +63,62 @@ Week 8/
 ---
 
 ### 2️⃣ Uploaded Dataset to ADLS Gen2  
-![02 File Uploaded](Screenshots/02_file_uploaded_to_raw.png)
+![02 File Uploaded](https://github.com/mayuri0527/Celebal-Summer-Internship-2025/blob/main/Week-8-Assignment/Screenshots/02_file_uploaded_to_raw.png.png)
 
 ---
 
 ### 3️⃣ Started Spark Pool in Synapse  
-![03 Spark Pool](Screenshots/03_spark_pool_started.png)
+![03 Spark Pool](https://github.com/mayuri0527/Celebal-Summer-Internship-2025/blob/main/Week-8-Assignment/Screenshots/03_spark_pool_started.png.png)
 
 ---
 
 ### 4️⃣ Loaded Data into DataFrame and Printed Schema  
-![04 Print Schema](Screenshots/04_cell1_df_loaded_and_printschema.png)
+![04 Print Schema](https://github.com/mayuri0527/Celebal-Summer-Internship-2025/blob/main/Week-8-Assignment/Screenshots/04_cell1_df_loaded_and_printschema.png.png)
 
 ---
 
 ### 5️⃣ Added Revenue Column to DataFrame  
-![05 Revenue Column](Screenshots/05_cell2_revenue_column_and_output.png)
+![05 Revenue Column](https://github.com/mayuri0527/Celebal-Summer-Internship-2025/blob/main/Week-8-Assignment/Screenshots/05_cell2_revenue_column_and_output.png.png)
 
 ---
 
 ### 6️⃣ Passenger Count by Pickup & Dropoff Location  
-![06 Passenger Area](Screenshots/06_cell3_passenger_by_area_output.png)
+![06 Passenger Area](https://github.com/mayuri0527/Celebal-Summer-Internship-2025/blob/main/Week-8-Assignment/Screenshots/06_cell3_passenger_by_area_output.png.png)
 
 ---
 
 ### 7️⃣ Average Fare and Earnings by Vendor  
-![07 Vendor Stats](Screenshots/07_cell4_vendor_average_output.png)
+![07 Vendor Stats](https://github.com/mayuri0527/Celebal-Summer-Internship-2025/blob/main/Week-8-Assignment/Screenshots/07_cell4_vendor_average_output.png.png)
 
 ---
 
 ### 8️⃣ Moving Count of Payment Types  
-![08 Payment Count](Screenshots/08_cell5_payment_type_moving_count.png)
+![08 Payment Count](https://github.com/mayuri0527/Celebal-Summer-Internship-2025/blob/main/Week-8-Assignment/Screenshots/08_cell5_payment_type_moving_count.png.png)
 
 ---
 
 ### 9️⃣ Top 2 Vendors by Revenue on a Given Date  
-![09 Top Vendors](Screenshots/09_cell6_top_2_vendors_on_date.png)
+![09 Top Vendors](https://github.com/mayuri0527/Celebal-Summer-Internship-2025/blob/main/Week-8-Assignment/Screenshots/09_cell6_top_2_vendors_on_date.png.png)
 
 ---
 
 ### 🔟 Most Popular Route (Pickup → Dropoff)  
-![10 Popular Routes](Screenshots/10_cell7_popular_routes_output.png)
+![10 Popular Routes](https://github.com/mayuri0527/Celebal-Summer-Internship-2025/blob/main/Week-8-Assignment/Screenshots/10_cell7_popular_routes_output.png.png)
 
 ---
 
 ### 🔁 Pickup Hotspots in Last 10 Seconds  
-![11 Pickup Hotspots](Screenshots/11_cell8_pickup_hotspots_output.png)
+![11 Pickup Hotspots](https://github.com/mayuri0527/Celebal-Summer-Internship-2025/blob/main/Week-8-Assignment/Screenshots/11_cell8_pickup_hotspots_output.png.png)
 
 ---
 
 ### 💾 Saved Results as Parquet Files to ADLS  
-![12 Parquet Save](Screenshots/12_cell9_saving_to_parquet.png)
+![12 Parquet Save](https://github.com/mayuri0527/Celebal-Summer-Internship-2025/blob/main/Week-8-Assignment/Screenshots/12_cell9_saving_to_parquet.png.png)
 
 ---
 
 ### 📂 Processed Parquet Data in ADLS Gen2  
-![13 Processed Folder](Screenshots/13_parquet_files_in_adls_processed.png)
+![13 Processed Folder](https://github.com/mayuri0527/Celebal-Summer-Internship-2025/blob/main/Week-8-Assignment/Screenshots/13_parquet_files_in_adls_processed.png.png)
 
 ---
 
