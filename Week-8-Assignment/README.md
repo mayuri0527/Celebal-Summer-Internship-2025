@@ -57,8 +57,8 @@ Week 8/
 
 ## 🧪 Step-by-Step Execution (with Screenshots)
 
-### 1️⃣ Created Synapse Workspace  
-![01 Synapse Created](Week-8-Assignment/Screenshots/01_synapse_workspace_creation.png.png)  
+### 1️⃣ Created Synapse Workspace   
+![01 Synapse Created](https://github.com/mayuri0527/Celebal-Summer-Internship-2025/blob/main/Week-8-Assignment/Screenshots/01_synapse_workspace_creation.png.png).
 
 ---
 
