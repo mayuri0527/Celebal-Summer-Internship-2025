@@ -50,7 +50,7 @@ Week 8/
 │   ├── 10_cell7_popular_routes_output.png
 │   ├── 11_cell8_pickup_hotspots_output.png
 │   ├── 12_cell9_saving_to_parquet.png
-│   └── 1_parquet_files_in_adls_processed.png
+│   └── 13_parquet_files_in_adls_processed.png
 ```
 
 ---
@@ -58,7 +58,7 @@ Week 8/
 ## 🧪 Step-by-Step Execution (with Screenshots)
 
 ### 1️⃣ Created Synapse Workspace  
-![01 Synapse Created](Screenshots/01_synapse_workspace_creation.png)
+![01 Synapse Created](Week-8-Assignment/Screenshots/01_synapse_workspace_creation.png.png)  
 
 ---
 
