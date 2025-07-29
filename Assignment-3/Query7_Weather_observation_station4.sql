@@ -1,0 +1,22 @@
+CREATE DATABASE IF NOT EXISTS TestDB;
+USE TestDB;
+
+CREATE TABLE STATION (
+    ID INT,
+    CITY VARCHAR(50),
+    STATE VARCHAR(2),
+    LAT_N FLOAT,
+    LONG_W FLOAT
+);
+
+INSERT INTO STATION (ID, CITY, STATE, LAT_N, LONG_W) VALUES
+(1, 'Delhi', 'DL', 28.61, 77.23),
+(2, 'Mumbai', 'MH', 19.07, 72.87),
+(3, 'Delhi', 'DL', 28.61, 77.23),
+(4, 'Chennai', 'TN', 13.08, 80.27),
+(5, 'Mumbai', 'MH', 19.07, 72.87);
+
+
+SELECT COUNT(CITY) - COUNT(DISTINCT CITY) AS difference
+FROM STATION;
+

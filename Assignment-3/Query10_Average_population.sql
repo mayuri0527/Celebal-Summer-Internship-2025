@@ -1,0 +1,58 @@
+CREATE TABLE IF NOT EXISTS COUNTRY (
+    CODE VARCHAR(3) PRIMARY KEY,
+    NAME VARCHAR(44),
+    CONTINENT VARCHAR(13),
+    REGION VARCHAR(25),
+    SURFACEAREA FLOAT,
+    INDEPYEAR VARCHAR(5),
+    POPULATION INT,
+    LIFEEXPECTANCY VARCHAR(4),
+    GNP FLOAT,
+    GNPOLD VARCHAR(9),
+    LOCALNAME VARCHAR(44),
+    GOVERNMENTFORM VARCHAR(44),
+    HEADOFSTATE VARCHAR(32),
+    CAPITAL VARCHAR(4),
+    CODE2 VARCHAR(2)
+);
+
+
+CREATE TABLE IF NOT EXISTS CITY (
+    ID INT PRIMARY KEY,
+    NAME VARCHAR(17),
+    COUNTRYCODE VARCHAR(3),
+    DISTRICT VARCHAR(20),
+    POPULATION INT,
+    FOREIGN KEY (COUNTRYCODE) REFERENCES COUNTRY(CODE)
+);
+
+
+INSERT INTO COUNTRY (CODE, NAME, CONTINENT, REGION, POPULATION)
+VALUES 
+('USA', 'United States', 'North America', 'North America', 331000000),
+('IND', 'India', 'Asia', 'Southern Asia', 1380000000),
+('BRA', 'Brazil', 'South America', 'South America', 212000000);
+
+INSERT INTO CITY (ID, NAME, COUNTRYCODE, DISTRICT, POPULATION)
+VALUES
+(1, 'New York', 'USA', 'New York', 8400000),
+(2, 'Los Angeles', 'USA', 'California', 4000000),
+(3, 'Mumbai', 'IND', 'Maharashtra', 12400000),
+(4, 'Delhi', 'IND', 'Delhi', 11000000),
+(5, 'São Paulo', 'BRA', 'São Paulo', 12252023),
+(6, 'Rio de Janeiro', 'BRA', 'Rio de Janeiro', 6748000);
+
+
+SELECT 
+    co.Continent,
+    FLOOR(AVG(ci.Population)) AS Average_City_Population
+FROM 
+    CITY ci
+JOIN 
+    COUNTRY co ON ci.CountryCode = co.Code
+GROUP BY 
+    co.Continent
+ORDER BY 
+    co.Continent;
+
+
